@@ -81,7 +81,7 @@
     //import component
     import Header from "../../components/Header.vue";
     import Footer from "../../components/Footer.vue";
-    import Chats from "../../components/Chats.vue"
+    // import Chats from "../../components/Chats.vue"
 
     export default {
         name: 'PhotoComponent',
