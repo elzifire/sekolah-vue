@@ -8,7 +8,7 @@
         <header class="pt-5 border-bottom bg-light">
             <div class="container pt-md-1 pb-md-1">
                 <h1 class="bd-title mt-4 font-weight-bold"><i class="fa fa-phone" aria-hidden="true"></i> KONTAK</h1>
-                <p class="bd-lead">Kontak SMK Indonesia.</p>
+                <p class="bd-lead">Kontak MA PPIQ.</p>
             </div>
         </header>
 

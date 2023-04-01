@@ -59,7 +59,7 @@
         </div>
         <!-- main content -->
             <!-- Fitur Chatsapp -->
-            <Chats />
+            <!-- <Chats /> -->
         <!-- footer -->
         <Footer />
         <!-- end footer -->
