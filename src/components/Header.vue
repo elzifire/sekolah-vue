@@ -1,8 +1,7 @@
 <template>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" style="border-top: 5px solid #af8ce2;">
         <div class="container-fluid">
-            <router-link :to="{name: 'home'}" class="navbar-brand"><i class="fa fa-graduation-cap" aria-hidden="true"></i> SMK
-                INDONESIA</router-link>
+            <router-link :to="{name: 'home'}" class="navbar-brand"><i class="fa fa-graduation-cap" aria-hidden="true"></i> MA PPIQ</router-link>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

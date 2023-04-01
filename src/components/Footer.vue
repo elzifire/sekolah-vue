@@ -1,4 +1,7 @@
 <template>
+    <div class="container">
+        <a v-bind:href="URL" ></a>
+    </div>
     <footer>
         <div class="container-fluid" style="background: white;">
             <div class="row p-4">
@@ -6,7 +9,7 @@
                     <h5>TENTANG</h5>
                     <hr>
                     <p>
-                        Sekolah Menengah Kejuruan adalah pendidikan formal yang menyelenggarakan pendidikan kejuruan pada jenjang pendidikan menengah sebagai lanjutan dari SMP/MTs.
+                        Madrasah Aliyah adalah pendidikan formal yang menyelenggarakan pendidikan pada jenjang pendidikan menengah sebagai lanjutan dari SMP/MTs.
                     </p>
                 </div>
                 <div class="col-md-4">
@@ -24,7 +27,9 @@
                     <hr>
                     <p>
                         <i class="fa fa-map-marker" aria-hidden="true"></i> Jl. Jendral Sudirman No.83, Daerah Khusus Ibukota Jakarta, Indonesia
-                        <i class="fas fa-phone"></i> +62857-8585-2224
+                        <br>
+                        <i class="fas fa-solid fa-phone"></i> <a :href="'https://wa.me/' + phoneNumber" target="_blank">+62 857-8585-2224</a>
+                        <!-- <a href="https://api.whatsapp.com/send?phone=6285747899098">contoh</a> -->
                     </p>
                 </div>
             </div>
@@ -32,7 +37,9 @@
         <div class="container-fluid bg-dark">
             <div class="row p-3">
                 <div class="text-center text-white font-weight-bold">
-                    Copyright © 2020 SMK INDONESIA. All rights reserved.
+                    <p>
+                    Copyright © {{ currentYear }} MA PPIQ. All rights reserved.
+                </p>
                 </div>
             </div>
         </div>
@@ -73,10 +80,13 @@
                     .catch(() => {
                         tags.value = [];
                     });
+
             })
 
             //return data
             return {
+                phoneNumber: '+6285785852224',
+                currentYear: new Date().getFullYear(),
                 tags,
             }
         }
