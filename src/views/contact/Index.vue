@@ -34,7 +34,7 @@
                     <div class="card border-0 shadow-sm rounded">
                         <div class="card-body">
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253840.4878845067!2d106.6894283352192!3d-6.229728025238589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e34b9d%3A0x5371bf0fdad786a2!2sJakarta%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1594508000901!5m2!1sid!2sid"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63413.46594457189!2d106.69057555820311!3d-6.604401199999989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c59e57bac1d7%3A0x1943a38308293b61!2sKantor%20MA%20PPIQ!5e0!3m2!1sid!2sid!4v1680386677561!5m2!1sid!2sid"
                                 width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""
                                 aria-hidden="false" tabindex="0"></iframe>
                         </div>
@@ -49,11 +49,14 @@
                                 <i class="fa fa-map-marker" aria-hidden="true"></i> Jl. H. Somad No.140, Pagelaran, Kec. Ciomas, Kabupaten
                             </p>
                             <p>
-                                <i class="fas fa-phone"></i> +62857-8585-2224
+                                <i class="fas fa-phone"></i> +62180299924
                             </p>
                             <p>
-                                <i class="fas fa-envelope"></i> info@smkindonesia.sch.id
+                                <i class="fas fa-phone"></i> +6281210271946
                             </p>
+                            <!-- <p>
+                                <i class="fas fa-envelope"></i> 
+                            </p> -->
                         </div>
                     </div>
                 </div>

@@ -26,10 +26,12 @@
                     <h5>KONTAK</h5>
                     <hr>
                     <p>
-                        <i class="fa fa-map-marker" aria-hidden="true"></i> Jl. Jendral Sudirman No.83, Daerah Khusus Ibukota Jakarta, Indonesia
+                        <i class="fa fa-map-marker" aria-hidden="true"></i> Jl. H. Somad No.140, Pagelaran, Kec. Ciomas, Kabupaten
                         <br>
-                        <i class="fas fa-solid fa-phone"></i> <a :href="'https://wa.me/' + phoneNumber" target="_blank">+62 857-8585-2224</a>
-                        <!-- <a href="https://api.whatsapp.com/send?phone=6285747899098">contoh</a> -->
+                        <i class="fas fa-solid fa-phone mt-2 mb-1"></i> <a :href="'https://wa.me/' + phoneNumber" target="_blank">+62 857-8585-2224</a>
+                            <br>
+                        <i class="fas fa-solid fa-phone mt-2"></i> <a :href="'https://wa.me/' + phoneNumber1" target="_blank">+62 812-1027-1946</a>
+                        
                     </p>
                 </div>
             </div>
@@ -86,6 +88,7 @@
             //return data
             return {
                 phoneNumber: '+6285785852224',
+                phoneNumber1: '+6281210271946',
                 currentYear: new Date().getFullYear(),
                 tags,
             }
