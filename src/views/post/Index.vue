@@ -5,11 +5,11 @@
         <!-- end header -->
 
         <!-- main content -->
-        <header class="pt-5 border-bottom bg-light">
+        <header class="pt-5 border-bottom ">
             <div class="container pt-md-1 pb-md-1">
                 <h1 class="bd-title mt-4 font-weight-bold"><i class="fa fa-book-open" aria-hidden="true"></i> BERITA
                 </h1>
-                <p class="bd-lead">Berita terbaru tentang MA PPIQ.</p>
+                <p class="bd-lead">Berita terbaru tentang MA.</p>
             </div>
         </header>
 
